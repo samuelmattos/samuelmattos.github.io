@@ -1,1 +1,188 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<title>Samuel Mattos</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> SOBRE</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTATO</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i>
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">SOBRE</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTATO</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">SAMUEL <span class="w3-hide-small">MATTOS</span></span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">SOBRE MIN</h3>
+  <p class="w3-center"><em>Eu amo desenvolvimento de software</em></p>
+  <p>Desenvolvedor Web desde 2011, com ênfase em PHP, HTML5, Javascript, Jquery, banco de dados Oracle e Postgres.
+    Também participei de levantamentos de requisitos para sistema bem como da estruturação de cronograma e prazo.
+    Estudos de editais para possível participação no software da empresa e possíveis modificações a serem realizadas no mesmo.
+    Sempre disposto a aprender e se especializar em desenvolvimento WEB.</p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <p><b><i class="fa fa-user w3-margin-right"></i>Samuel Mattos</b></p><br>
+      <img src="/image/I2.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <p>Bem-vindo ao meu portifólio. Nos últimos anos venho me aprofundando no desenvolvimento de software as a service mas sou apaixonado pela área de marketing.
+        Com essa paixão no ano de 2020 decidi me dedicar a trabalhar mais perto com agencias, para tanto comecei a me especializar em desenvolvimento Wordpress.
+        Passando por criação de landingpages, e-commerce's, blog's, sites institucionais meu intuito é sempre entregar o portal mais rápido e performático para o SEO da sua empresa.</p>
+    </div>
+  </div>
+  <p class="w3-large w3-center w3-padding-16">Eu sou realmente bom em:</p>
+  <p class="w3-wide"><i class="fa fa-code"></i>PHP</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">85%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-database"></i>MYSQL</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">80%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-wordpress"></i>Wordpress</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">70%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-code"></i>Laravel</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">30%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-laptop"></i>Web Design</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">65%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-css3"></i>CSS</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">65%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-code"></i>JS</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">65%</div>
+  </div>
+</div>
+
+<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">5+</span><br>
+    Parceiros
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">55+</span><br>
+    Projetos finalizados
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">90+</span><br>
+    Clientes felizes
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">200+</span><br>
+    Reuniões
+  </div>
+</div>
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center">MEU TRABALHO</h3>
+  <p class="w3-center"><em>Aqui você encontra alguns dos meus últimos trabalhos.<br> clique na imagem para aumentar</em></p><br>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <img src="/image/okazi.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="https://okazi.com.br/">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="/image/dadeloh.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="https://dadeloh.com.br/">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="/image/tamily.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="https://tamilybousfield.com.br/">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="/image/oasis.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="https://oasisnodeserto.com.br/">
+    </div>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">Entre em contato</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center">Trablho remoto</h3>
+  <p class="w3-center"><em>Eu gostaria muito do seu retorno!</em></p>
+
+  <div class="w3-row w3-padding-32 w3-section">   
+    <div class="w3-center">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Florianópolis, SC<br>
+        <a class="w3-button" rel="stylesheet" href="https://api.whatsapp.com/send/?phone=5548996317626"><i class="fa fa-whatsapp fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>96317626</a><br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: muka@outlook.com<br>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Voltar ao topo</a>
+  <div class="w3-xlarge w3-section">
+    <a href="http://www.linkedin.com/in/samuelmattos"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
